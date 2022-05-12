@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Weather Search</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="src/api.js"></script>
+  </head>
+
+  <body>
+    <div style="display: flex; flex-direction: column">
+      <div class="panel">
+        <h3 class="text-center">☁️☀️ Weather search ☁️☀️</h3>
+        <input id="weather-input" type="text" />
+        <span
+          id="weather-display"
+          class="flex-grow-1"
+          >Enter a city or country name above.
+          </span
+        >
+      </div>
+      <div class="panel" style="height: auto">
+        <h3 class="text-center">API information</h3>
+        <ol>
+          <li>
+            Navigate to
+            <a href="https://openweathermap.org">https://openweathermap.org</a>
+          </li>
+          <li>Create an account AND verify the account</li>
+          <li>
+            Go the "My API keys" (<a
+              href="https://home.openweathermap.org/api_keys"
+              >https://home.openweathermap.org/api_keys</a
+            >)
+          </li>
+          <li>Create a new API key</li>
+          <li>
+            On the "API" page, open the "API doc" for a request (<a
+              href="https://openweathermap.org/api"
+              >https://openweathermap.org/api</a
+            >)
+          </li>
+        </ol>
+      </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
